@@ -3,10 +3,19 @@
 	--color-accent: rgb(104, 55, 193);
 	--color-gray: rgb(64, 75, 96);
 	--color-navy: rgb(24, 29, 40);
+	--color-border: rgb(157, 105, 240);
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--color-background);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
