@@ -5,3 +5,16 @@
 		"jeanette patrick patrick kira";
 	gap: 30px;
 }
+
+@media (max-width: 1000px) {
+	.main {
+		grid-template-areas:
+			"daniel"
+			"jonathan"
+			"jeanette"
+			"patrick"
+			"kira";
+		width: 80%;
+		height: auto;
+	}
+}
